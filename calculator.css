@@ -1,0 +1,33 @@
+.calculator{
+   border:2px solid black;
+   margin-right:400px;
+   margin-left:400px;
+   border-radius:20px
+
+}  
+
+h1{
+text-align:center;
+}
+
+input{
+color:white;
+background:black;
+font-size:50px;
+border-radius:12px;
+width:100px;
+margin:15px 10px 10px 10px;
+
+}
+
+#myform{
+    margin-left:22px;
+    margin-top:50px;
+    margin-bottom:20px;
+}
+
+.displayBox{
+    width:464px;
+    background:white;
+    color:black;
+}
