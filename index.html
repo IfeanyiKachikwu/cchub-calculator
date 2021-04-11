@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<<!DOCTYPE html> 
 <html>
     <head>
         <meta charset="UTF-8">
@@ -13,8 +13,10 @@
     <body>
         <Div class="calculator">
             <h1>CChub Calculator</h1>
+           
             <form id="myform" name="calculator">
                 <input type="text" name="display" class="displayBox"><br>
+                <div>
                 <input type="button" value="1" onclick="calculator.display.value += '1' ">
                 <input type="button" value="2" onclick="calculator.display.value += '2' ">
                 <input type="button" value="3" onclick="calculator.display.value += '3' ">
@@ -31,7 +33,9 @@
                 <input type="button" value="0" onclick="calculator.display.value += '0' ">
                 <input type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value) ">
                 <input type="button" value="&#247" onclick="calculator.display.value += '/' ">
+                </div>
             </form>
-        </Div>
+        
+        </div>
     </body>
 </html>      
