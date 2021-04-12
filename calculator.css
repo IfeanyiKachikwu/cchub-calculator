@@ -72,16 +72,41 @@ h1{
         }
     }
 
-    @media (min-width: 500px) and (max-width: 657px){
+    @media (min-width: 550px) and (max-width: 657px){
         .calculator{
             width:80%;
             background:yellowgreen;
         }
     }
 
-    @media (max-width: 499px){
+    @media (max-width: 549px){
         .calculator{
             width:100%;
             background:orangered;
         }
+
+        .displayBox{
+            width:98%;
+            margin-left:2px;
+            /* margin:auto;
+            border-radius:0px; */
+        }
+
+        #myform{
+            width:100%;
+            
+        }
+
+        input{
+            color:white;
+            background:black;
+            font-size:30px;
+            border-radius:8px;
+            width:16%;
+            margin:12px;
+            
+            }
+
+
+
     }
